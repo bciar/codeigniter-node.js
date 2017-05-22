@@ -1,0 +1,468 @@
+.ok-modal-style .modal-dialog .modal-content{
+    text-align: center;
+}
+.ok-modal-style .modal-dialog .modal-content h2{
+    color: #BB167B;
+    padding: 22px 0;
+    font-weight: bold;
+}
+.ok-modal-style .modal-dialog .modal-content p{
+    color: #B9B7BB;
+    padding: 5px 0;
+    font-weight: normal;
+}
+.ok-modal-style .modal-dialog .modal-content .ok-footer{
+    padding: 20px 0;
+}
+.ok-modal-style .modal-dialog .modal-content .ok-footer button{
+    background-color: #BB167B;
+    padding: 6px 30px;
+    color: #ffffff;
+}
+.ok-modal-style .modal-dialog .modal-content .close{
+    position: absolute;
+    z-index: 2;
+    top: -11px;
+    right: -12px;
+    background-color: #BB167B !important;
+    border-radius: 50%;
+    opacity: 1;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0px 5px;
+}
+.answer-modal .answer-modal-content{
+     text-align: center;
+     background-color: #ffffff;
+    padding: 12px 0;
+}
+.answer-modal .answer-modal-content .answer-modal-footer{
+
+}
+.answer-modal .answer-modal-content .answer-modal-footer button{
+    background-color: #BB167B;
+    padding: 6px 30px;
+    color: #ffffff;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .title{
+    margin: 12px 0px;
+    width: 90%;
+    margin-left: 5%;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .send-msg{
+    margin: 12px 0px;
+    width: 90%;
+    margin-left: 5%;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .text{
+    color: #000000;
+    margin-left: 5%;
+    position: relative;
+    padding: 0px 30px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .text:before{
+    content: "\f12a";
+    position: absolute;
+    left: 0;
+    font-size: 42px;
+    font-family: FontAwesome;
+    top: 12px;
+    color: #FEB00E;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .send-msg:focus{
+    webkit-box-shadow: inset 0 1px 1px #BB167B, 0 0 8px #BB167B;
+    box-shadow: inset 0 1px 1px #BB167B, 0 0 8px #BB167B;
+    border-color: #BB167B;
+}
+.answer-modal .answer-modal-content .answer-modal-footer .title:focus{
+    webkit-box-shadow: inset 0 1px 1px #BB167B, 0 0 8px #BB167B;
+    box-shadow: inset 0 1px 1px #BB167B, 0 0 8px #BB167B;
+    border-color: #BB167B;
+}
+.answer-modal .answer-modal-content .answer-modal-header .close{
+    position: absolute;
+    z-index: 2;
+    top: -11px;
+    right: -12px;
+    background-color: #BB167B !important;
+    border-radius: 50%;
+    opacity: 1;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0px 5px;
+}
+
+
+
+/*-------------------------message style-----------------------*/
+
+
+.messages-section .read-message{
+    display: block;
+    padding: 6px 0px;
+    color: #777;
+}
+.col-md-3 .read-message p{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+.col-md-3 .read-message p .message-title{
+    color: #0f0f0f;
+    font-weight: bold;
+}
+.col-md-3 .read-message p .message-from{
+    color: #0f0f0f;
+    font-size: 14px;
+}
+.col-md-3 .read-message p span{
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+.message-discription{
+    position: relative;
+}
+.read-message-check{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.read-message .col-md-9 p{
+    position: relative;
+
+
+    color: #000;
+    line-height: 21px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.mess-text-part{
+    padding: 5px;
+
+    margin-top: 7px;
+
+}
+
+.read-message .mess-text-part > span{
+    color: #333;
+    float: right;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-family:"LatoLL";
+    font-weight: bold;
+}
+#answer_client{
+    padding: 20px;
+}
+#answer_client .btn{
+    background-color: #bb167b;
+    margin: 10px 20px 10px 0px;
+    color: #fff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#answer_client .btn:hover{
+    border: 1px solid #bb167b;
+    background-color: #fff;
+    color: #bb167b;
+}
+#delete-msg{
+    text-align: right;
+}
+#delete-msg button{
+    margin: 0px 20px;
+    background-color: #db297f;
+    padding: 5px 22px;
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#delete-msg button:hover{
+    background-color: #fff;
+    color: #bb167b;
+}
+#answer_client textarea{
+    margin-top: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#answer_client input{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+}
+.col-md-3 .read-message p span.message-from span{
+    display: inline-block;
+    margin: 0 0 0 1px;
+    color: #337ab7;
+}
+.my-messages-container ul{
+    background-color: #f9f9f9;
+}
+.my-messages-container ul li{
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+.my-messages-container ul li:last-child{
+    border-bottom: 0px;
+}
+
+
+
+
+/*---dashboard information-------*/
+
+.dashboard-info .my_phone{
+    margin-top: 17px;
+    color: #da297f;
+    font-style: italic;
+}
+.dashboard-info .my_account{
+    margin-top: 17px;
+    color: #da297f;
+    font-style: italic;
+}
+
+
+
+/*------------- Chat Page CSS -------------*/
+.form-subject-section{
+    font-size: 18px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #A6B2CF;
+}
+.form-subject-section p{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.chat-block{
+    text-align: right;
+}
+.chat-block .btn-default{
+    color: #ED4D4B;
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #ed4d4b;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.chat-block .btn-default:hover{
+    background: #ED4D4B;
+    color: #fff;
+}
+.chat-block .btn-default .fa{
+    margin-right: 3px;
+}
+.chat-message-section{
+    padding: 15px 30px 25px 0px;
+    border-bottom: 2px solid #F4F4F4;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 50px;
+
+}
+.chat-message-section ul{
+    width: 100%;
+}
+.chat-message-section ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    position: relative;
+}
+.message-img-section{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #9ec33f;
+    padding-left: 6px;
+    margin-top: 5px;
+}
+.left-message .message-img-section{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.message-img-section img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.message-text-section{
+    border-radius: 10px;
+    position: relative;
+    padding: 22px 30px;
+    background: #F5F6F1;
+    color: #333;
+    font-size: 16px;
+}
+
+.message-text-section p {
+    word-wrap: break-word;
+}
+
+.left-message .message-text-section{
+    margin-right: 80px;
+}
+.left-message .message-text-section p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.right-message .message-text-section{
+    margin-left: 80px;
+    background-color: #EFF6FC;
+}
+.right-message .message-text-section p{
+    padding: 20px 5px 5px 5px;
+    text-align: justify;
+}
+.right-message .message-img-section{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.message-text-section p + p{
+    margin-top: 20px;
+}
+.message-text-section .message-time{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #555;
+}
+.send-section-left p{
+    color: #bb167b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.chat-send-section{
+    margin: 20px -15px 20px -15px;
+}
+.send-section-left h6{
+    color: #343233;
+    font-size: 18px;
+    background-color: #F6F4F5;
+    padding: 10px;
+    margin: 0px 0px 5px 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+.send-section-left-input{
+    color: #343233;
+    font-size: 16px;
+    background-color: #F6F4F5;
+    padding: 10px;
+    margin: 0px 0px 5px 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+.send-section-left-input span{
+    margin-left: 5px;
+}
+.send-section-left .btn{
+    background-color: #bb167b;
+    margin: 10px 20px 10px 0px;
+    color: #fff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-left: 10px;
+}
+.send-section-left .btn:hover{
+    background-color: #fff;
+    color: #bb167b;
+}
+.send-section-right textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.chat-send-section-full-width{
+    margin-top: 30px;
+}
+.chat-send-section-full-width p{
+    color: #DF0F09;
+    position: relative;
+    padding: 0px 30px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: calc(100% - 137px);
+}
+.chat-send-section-full-width p:before{
+    content: "\f12a";
+    position: absolute;
+    left: 0;
+    font-size: 42px;
+    font-family: FontAwesome;
+    top: 12px;
+    color: #FEB00E;
+}
+.chat-send-section-full-width .btn{
+    background-color: #BB167B;
+    padding: 6px 30px;
+    color: #ffffff;
+    margin-top: 0px !important;
+    vertical-align: top;
+}
+.ring{
+    color: #0f0f0f;
+    position: absolute;
+    top: 29px;
+    left: 12px;
+    font-size: 15px;
+}
+.input-delete-message{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+/* SQUARED THREE */
+.input-delete-message input[type=checkbox] {
+    margin-top: -6.5px;
+    font-size: 16px;
+}
+

@@ -1,0 +1,740 @@
+
+.sign-up-modal {
+    width: 100%;
+
+}
+
+#message_client p, #message_expert p, #message_login p {
+    color: #921010;
+    line-height: 20px;
+    font-family: "LatoR";
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid #921010;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.new-sign-in-content .form-group {
+    margin-bottom: 2px;
+}
+
+.new-sign-in-content {
+
+    padding: 40px 60px;
+    background: #ae2889;
+    background: -webkit-linear-gradient(bottom, #ae2889, #db297f);
+    background: -moz-linear-gradient(bottom, #ae2889, #db297f);
+    background: -ms-linear-gradient(bottom, #ae2889, #db297f);
+    background: -o-linear-gradient(bottom, #ae2889, #db297f);
+    background: linear-gradient(to top, #ae2889, #db297f);
+}
+
+.newModal .modal-dialog, #myModal .modal-dialog {
+    width: 500px;
+}
+
+
+
+.face-butt {
+    border-radius: 38px;
+    color: #fff;
+    background-color: #6ABDEA;
+    padding: 10px;
+    transition: all 0.5s;
+    font-family: "LatoR";
+    border: none;
+    margin-bottom: 20px;
+}
+
+.face-butt:hover {
+    background-color: #8BC03E;
+}
+
+.face-butt i {
+    position: relative;
+    margin-right: 10px;
+    width: 20px;
+
+}
+
+.face-butt i:after {
+    content: '';
+    display: inline-block;
+    height: 34px;
+    position: absolute;
+    border-right: 1px solid #2A9BCE;
+    right: -3px;
+    top: -10px;
+}
+
+.sign-buttons li {
+    display: inline-block;
+
+}
+
+.sign-buttons {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.sign-buttons li:last-child button {
+    border: 1px solid #AB4777;
+    padding: 10px 28px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "LatoB";
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    background: #ae2889;
+    background: -webkit-linear-gradient(bottom, #ae2889, #db297f);
+    background: -moz-linear-gradient(bottom, #ae2889, #db297f);
+    background: -ms-linear-gradient(bottom, #ae2889, #db297f);
+    background: -o-linear-gradient(bottom, #ae2889, #db297f);
+    background: linear-gradient(to top, #ae2889, #db297f);
+    transition: all 0.5s;
+}
+
+.sign-buttons li:last-child button:hover {
+    background: #fff;
+    color: #F63693;
+
+}
+
+.sign-buttons li:first-child button {
+    border: none;
+    color: #838382;
+    font-family: "LatoR";
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.sign-buttons li:first-child button:hover {
+    color: #2A9BCE;
+}
+
+.new-sign-in-content h1 {
+    /*text-transform: uppercase;*/
+    /*color: #6ABDEA;*/
+    color: #fff;
+    font-size: 30px;
+    font-family: "LatoB";
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sign-up-content-new {
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+}
+
+.sign-up-content-new label {
+    font-family: 'LatoR';
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.sign-up-content-new .sign-up-button {
+    text-align: left;
+}
+
+.sign-up-content-new .sign-up-button label {
+    font-family: "LatoL";
+    /*color: #A3A3A3;*/
+    margin-top: 6px;
+    color: #fff;
+}
+
+.sign-up-content-new a {
+    font-size: 11px;
+    font-family: 'LatoR';
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+}
+
+.mod-footer-part {
+    padding: 40px 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.mod-footer-part button {
+
+    margin-left: 86px;
+    border: 1px solid transparent;
+    padding: 10px 22px;
+    border-radius: 3px;
+    color: #000;
+    font-family: "LatoB";
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    background-color: #E8E8E8;
+    transition: all 0.5s;
+}
+
+.mod-footer-part button:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: #F63693;
+}
+
+.mod-footer-part span {
+    font-size: 22px;
+    font-family: 'LatoB';
+    color: #F63693;
+}
+
+.sign-up-footer span {
+    font-size: 18px;
+    font-family: 'LatoB';
+    color: #F63693;
+}
+
+.sign-up-footer button {
+
+    margin-left: 64px;
+    border: 1px solid transparent;
+    padding: 10px 28px;
+    border-radius: 3px;
+    color: #000;
+    font-family: "LatoB";
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    background-color: #E8E8E8;
+    transition: all 0.5s;
+}
+
+.sign-up-footer button:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: #F63693;
+}
+
+.sign-up-content-new .form-group {
+    margin-top: 15px;
+}
+
+.sign-up-content-new .sign-up-button span {
+    color: #74C1EA;
+}
+
+/*.new-sign-in-content h3{*/
+/*text-transform: uppercase;*/
+/*font-size: 16px;*/
+/*color: #CED3D5;*/
+/*margin-top: 10px;*/
+/*font-family: "LatoL";*/
+/*position: relative;*/
+/*font-weight: bold;*/
+/*}*/
+
+.new-sign-in-content h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'LatoR';
+}
+
+/*.new-sign-in-content h3:after{*/
+/*content: '';*/
+/*width: 36%;*/
+/*display: inline-block;*/
+/*border-bottom: 1px solid #eee;*/
+/*right: 0;*/
+/*top: 7px;*/
+/*position: absolute;*/
+/*}*/
+
+/*.new-sign-in-content h3:before{*/
+/*content: '';*/
+/*width: 36%;*/
+/*display: inline-block;*/
+/*border-bottom: 1px solid #eee;*/
+/*left: 0;*/
+/*top: 7px;*/
+/*position: absolute;*/
+
+/*}*/
+
+
+
+.sign-up-part {
+    background: #ae2889;
+    background: -webkit-linear-gradient(bottom, #ae2889, #db297f);
+    background: -moz-linear-gradient(bottom, #ae2889, #db297f);
+    background: -ms-linear-gradient(bottom, #ae2889, #db297f);
+    background: -o-linear-gradient(bottom, #ae2889, #db297f);
+    background: linear-gradient(to top, #ae2889, #db297f);
+    padding: 40px 60px;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sign-up-part h1 {
+
+    /*color: #6ABDEA;*/
+    color: #fff;
+    font-size: 30px;
+    font-family: "LatoB";
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.sign-up-part h3 ,.sign-up-part h5{
+    /*color:#6ABDEA;*/
+    margin-top: 10px;
+    /*border-bottom: 1px solid #fff;*/
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-family: "LatoR";
+    margin-bottom: 20px;
+}
+
+.sign-up-content label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: "LatoL";
+    color: #fff;
+    width: 100%;
+}
+
+.sign-up-content label span {
+    font-size: 12px;
+    float: right;
+    font-family: "LatoL";
+
+}
+
+.sign-up-content .form-group {
+    margin-bottom: 0;
+}
+
+#lang {
+    padding: 6px 145px;
+}
+
+.sign-up-content .form-group select {
+    background-color: #E8E8E8;
+    /*color: #80C6ED;*/
+    color: #000;
+    padding: 6px 130px;
+    height: 35px;
+    font-family: "LatoR";
+}
+
+.sign-up-modal .form-group input {
+    width: 100%;
+    height: 36px;
+    padding: 10px;
+    border: 1px solid #F0F2F5;
+
+    font-family: "LatoL";
+    font-size: 14px;
+    color: #000 !important;
+}
+
+#myModaluser .modal-dialog {
+    width: 500px;
+}
+
+.sign-up-bottom h2 {
+    font-size: 16px;
+    font-family: "LatoR";
+    /*color:#A3A3A3;*/
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-up-bottom p {
+    font-size: 13px;
+    font-family: "LatoR";
+    /*color:#A3A3A3;*/
+    color: #fff;
+}
+
+.sign-up-bottom ul {
+    margin: 10px 0;
+}
+
+.sign-up-bottom ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sign-up-bottom ul li input {
+    width: 80px;
+    text-align: right;
+    padding: 2px 5px;
+
+    font-family: "LatoB";
+    border: 1px solid #eee;
+}
+
+.sign-up-bottom label {
+    font-size: 14px;
+    line-height: 21px
+}
+
+.sign-up-bottom label input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+.sign-up-button button {
+    border: 1px solid #AB4777;
+    padding: 10px 28px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "LatoB";
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    background: #ae2889;
+    background: -webkit-linear-gradient(bottom, #ae2889, #db297f);
+    background: -moz-linear-gradient(bottom, #ae2889, #db297f);
+    background: -ms-linear-gradient(bottom, #ae2889, #db297f);
+    background: -o-linear-gradient(bottom, #ae2889, #db297f);
+    background: linear-gradient(to top, #ae2889, #db297f);
+    transition: all 0.5s;
+    float: right;
+    margin-top: -10px;
+}
+
+.sign-up-button button:hover {
+    background: #fff;
+    color: #F63693;
+}
+
+.sign-up-content {
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+}
+
+.sign-up-footer label {
+    font-size: 16px;
+    color: #fff;
+    font-family: "LatoB";
+    width: 100%;
+
+}
+
+.sign-up-footer label button {
+    float: right;
+    border: 1px solid #F1F3F3;
+    padding: 10px 28px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: "LatoR";
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #75C1EB;
+    transition: all 0.5s;
+    margin-top: -10px;
+}
+
+.sign-up-footer label button:hover {
+    background-color: #F73794;
+    transform: scale(1.1);
+}
+
+.sign-up-footer {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.history-tab li {
+    float: right !important;
+}
+
+.history-tab .active a {
+    background: #F73794 !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+
+.history-tab li a {
+    background: #C0C0C0 !important;
+    border-radius: 4px 4px 0 0 !important;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.history-img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.messages-name p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #AAABAE;
+    text-align: justify;
+}
+
+.messages-name p .name {
+    font-family: 'Lator';
+    color: #D135B7;
+}
+
+.messages-name p .message-text {
+    color: #A7A19F;
+    font-family: 'Lator';
+}
+.message-time{
+    text-align: center;
+    position: relative;
+}
+.message-time .time{
+    color: #D135B7;
+}
+
+.message-time p {
+    color: #3c763d;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.message-time .chat-ended {
+    background: #f4bc84;
+    border: none;
+    padding: 7px 10px;
+    margin-top: 10px ;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 0;
+    font-family: 'LatoR';
+}
+
+.message-time .fa-comment {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    color: #ffffff;
+    background: #bf4646;
+    padding: 6px 9px;
+}
+
+.load_more {
+    text-align: center ;
+    color: #5A7998;
+
+}
+
+
+
+.load_more i {
+    font-size: 12px;
+}
+
+
+
+.block_client_list .thumb-name{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.block_client_list .col-md-3{
+    margin-top: 12px;
+}
+
+.block_client_list .send_msg_btn{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.block_client_list img{
+    width: 15px;
+}
+
+.block_client_list .unblock_button{
+    background: #ffffff;
+    padding: 7px 25px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+    border-radius: 25px;
+    color: #3EBE25;
+}
+
+.block_client_list h2{
+    color: #9A0A75;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.block_client_list .load_more{
+    text-align: center;
+    color: #3E6A91;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dashboard-index-part .load_more{
+    margin-bottom: 30px;
+}
+
+.recent_feedback {
+    margin-top: 30px;
+}
+
+.recent_feedback h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.recent_feedback h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9A9DAA;
+}
+
+.recent_feedback .feedback_message{
+    margin-top: 12px;
+    text-align: justify;
+
+    line-height: 15px;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.payment_last_update{
+    margin-bottom: 80px;
+}
+
+
+.payment_last_update label{
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.payment_last_update .button-part-admin button{
+    margin-top: 0;
+    background: #ffffff;
+    color: #985693;
+    font-weight: 900;
+    border: 1px solid #D9D9D9;
+
+}
+
+.payment_last_update input{
+    border-radius: 7px;
+}
+
+.transaction {
+    border-top: 2px solid gainsboro;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid gainsboro;
+}
+
+.transaction h2{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.transaction h5{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.transaction .transaction_price li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.transaction .transaction_price{
+    position: relative;
+}
+
+.transaction h6{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.transaction .fa-long-arrow-right{
+    background: red;
+    border-radius: 25px;
+    padding: 3px;
+    color: #ffffff;
+    bottom: -3px;
+    left: -26px;
+    position: absolute;
+}
+
+.feedback_stars{
+    position: relative;
+}
+
+.feedback_stars ul li{
+    display: inline-block;
+    font-size: 19px;
+    color: #E06F2A;
+}
+
+.feedback_stars .rating_stars{
+    position: absolute;
+    top: 0;
+}
+
+.last_transaction{
+    margin-top: 36px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 33px;
+}
+
+.last_transaction h4{
+    font-weight: 500;
+    color: gray;
+}
+
+.last_transaction h5{
+    font-weight: 500;
+    color: #878787;
+    font-size: 19px;
+}
+
+.last_transaction h6{
+    font-weight: 900;
+    color: #3A8B0D;
+    font-size: 19px;
+}
+
+.withdraw_amount .fa-long-arrow-right{
+    background: red;
+    border-radius: 25px;
+    padding: 3px;
+    color: #ffffff;
+    bottom: -3px;
+    left: -26px;
+    position: absolute;
+}
+
+.last-contact p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.contact-name{
+    color: #F8479C !important;
+    margin: 25px;
+}
+
+.contact_button_list li{
+    margin: 17px 0;
+}
+
+.contact_button_list .view_session{
+
+}

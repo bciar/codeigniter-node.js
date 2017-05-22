@@ -1,0 +1,5 @@
+.idea/
+chat-messages/
+vendor/
+.ftpquota
+application/config/*.*
